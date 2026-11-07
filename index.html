@@ -1,310 +1,154 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description"
-        content="Nazmul Mridha - Junior AI/ML Engineer. CSE graduate (UAP, Nov 2026) building deep learning and NLP projects in Python.">
+    <title>Nazmul Mridha | Junior AI/ML Engineer</title>
+    <meta name="description" content="Nazmul Mridha - Junior AI/ML Engineer. CSE graduate (UAP, Nov 2026) building deep learning and NLP projects in Python.">
     <meta name="author" content="Nazmul Mridha">
     <meta name="theme-color" content="#0a0e1c">
+    <meta name="color-scheme" content="dark">
 
-    <title>Nazmul Mridha | Junior AI/ML Engineer</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nazmul Mridha | Junior AI/ML Engineer">
+    <meta property="og:description" content="Deep learning, computer vision and NLP projects in Python. Open to entry-level AI/ML roles.">
+    <meta name="twitter:card" content="summary">
 
-    <!-- CSS FILES (fonts are self-hosted from /fonts, see css/nav-hero.css) -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c6cff'/%3E%3Cstop offset='1' stop-color='%234fe3c1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%230a0e1c'%3ENM%3C/text%3E%3C/svg%3E">
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="css/magnific-popup.css" rel="stylesheet">
-
-    <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
-
-    <link href="css/nav-hero.css" rel="stylesheet">
-
-    <link href="css/sections.css" rel="stylesheet">
-
+    <link rel="preload" href="fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
     <script>document.documentElement.classList.add('js');</script>
-
-    <!--
-
-TemplateMo 578 First Portfolio
-
-https://templatemo.com/tm-578-first-portfolio
-
--->
-
 </head>
 
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+<symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></symbol>
+<symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></symbol>
+<symbol id="i-expand" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+<symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+<symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+<symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.4 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.9 1S18.7.7 16 2.5a13.4 13.4 0 0 0-7 0C6.3.7 5.1 1 5.1 1A5 5 0 0 0 5 4.8a5.4 5.4 0 0 0-1.5 3.7c0 5.5 3.3 6.6 6.4 7a3.4 3.4 0 0 0-.9 2.6V22"/></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></symbol>
+<symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4a4 4 0 1 1-7.9 1.2 4 4 0 0 1 7.9-1.2zM17.5 6.5h.01"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-grad" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
+<symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+<symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></symbol>
+</defs></svg>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <section class="preloader">
-        <div class="spinner">
-            <span class="spinner-rotate"></span>
-        </div>
-    </section>
-    <!-- Nav Start -->
-    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
-        <div class="container">
-
-            <a href="#section_1" class="navbar-brand custom-link" aria-label="Nazmul Mridha - back to top">
+    <header class="navbar">
+        <nav class="nav-inner" aria-label="Main navigation">
+            <a href="#home" class="brand" aria-label="Nazmul Mridha - back to top">
                 <span class="brand-mark" aria-hidden="true">NM</span>
-                <span class="brand-text">Nazmul<span class="brand-dot">.</span></span>
+                <span>Nazmul<span class="brand-dot">.</span></span>
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="nav-toggle-icon"></span>
             </button>
 
-            <!-- NOTE: click-scroll.js maps these five links to #section_1..#section_5 by position. Keep the order. -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_1">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Skill</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                    </li>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
-
-                <a class="nav-cta custom-link" href="#section_5">
-                    Let's talk
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M7 17 17 7M8 7h9v9" />
-                    </svg>
-                </a>
+                <a class="nav-cta" href="#contact">Let's talk <svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
             </div>
+        </nav>
+    </header>
 
-        </div>
-    </nav>
-    <!-- Nav End -->
-    <main>
-        <!-- Hero Start -->
-        <section class="hero" id="section_1">
-            <div class="container">
-                <div class="row align-items-center hero-main">
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="hero-eyebrow"><span class="pulse" aria-hidden="true"></span> Open to entry-level AI/ML roles</p>
 
-                    <div class="col-lg-7 col-12">
-                        <div class="hero-copy">
-                            <p class="hero-eyebrow">
-                                <span class="pulse" aria-hidden="true"></span>
-                                Open to entry-level AI/ML roles
-                            </p>
+                    <h1 class="hero-name"><span>Nazmul</span> <span class="outline">Mridha</span></h1>
 
-                            <h1 class="hero-name">
-                                <span>Nazmul</span>
-                                <span class="outline">Mridha</span>
-                            </h1>
+                    <p class="hero-role">
+                        <span class="role-mark" aria-hidden="true"></span>
+                        Junior AI/ML Engineer
+                        <span class="role-sub">B.Sc. CSE &middot; UAP</span>
+                    </p>
 
-                            <p class="hero-role">
-                                <span class="role-mark" aria-hidden="true"></span>
-                                Junior AI/ML Engineer
-                                <span class="role-sub">B.Sc. CSE &middot; UAP</span>
-                            </p>
+                    <p class="hero-lead">
+                        I build computer vision-based fall detection systems using
+                        <strong>EfficientNetV2-S for activity classification</strong> and
+                        <strong>PatchCore for fall detection</strong>, working with wearable sensor data.
+                        I have also built an <strong>NLP Resume Ranker</strong> and the
+                        <strong>FutureFinds E-Commerce Gadget Platform</strong>, with a strong grounding in
+                        Python, Data Structures and Algorithms.
+                    </p>
 
-                            <p class="hero-lead">
-                                I build computer vision-based fall detection systems using
-                                <strong>EfficientNetV2-S for activity classification</strong> and
-                                <strong>PatchCore for fall detection</strong>, working with wearable sensor data.
-                                Also builded
-                                <strong>NLP Resume Ranker, FutureFinds E-Commerce Gadget Platform</strong>.
-                                Strong knowledge of Python, Data Structures and Algorithms.
-                            </p>
-
-                            <div class="hero-actions">
-                                <a class="hx-btn hx-btn-primary custom-link" href="#section_4">
-                                    View my projects
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
-                                        aria-hidden="true">
-                                        <path d="M12 5v14m0 0-6-6m6 6 6-6" />
-                                    </svg>
-                                </a>
-
-                                <a class="hx-btn hx-btn-ghost" href="docs/Nazmul_Mridha_CV_AIML_Engineer.pdf" download>
-                                    Download CV
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
-                                        aria-hidden="true">
-                                        <path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14" />
-                                    </svg>
-                                </a>
-
-                                <ul class="hero-social">
-                                    <li>
-                                        <a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener"
-                                            aria-label="GitHub profile">
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                                stroke-linejoin="round" aria-hidden="true">
-                                                <path
-                                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.4 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.9 1S18.7.7 16 2.5a13.4 13.4 0 0 0-7 0C6.3.7 5.1 1 5.1 1A5 5 0 0 0 5 4.8a5.4 5.4 0 0 0-1.5 3.7c0 5.5 3.3 6.6 6.4 7a3.4 3.4 0 0 0-.9 2.6V22" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank"
-                                            rel="noopener" aria-label="LinkedIn profile">
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                                stroke-linejoin="round" aria-hidden="true">
-                                                <path
-                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:nazmulmridha680@gmail.com" aria-label="Send an email">
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                                stroke-linejoin="round" aria-hidden="true">
-                                                <path
-                                                    d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
-                                                <path d="m22 6-10 7L2 6" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projects">View my projects <svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-arrow-down"/></svg></a>
+                        <a class="btn btn-ghost" href="docs/Nazmul_Mridha_CV_AIML_Engineer.pdf" download>Download CV <svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-download"/></svg></a>
+                        <ul class="icon-links">
+                            <li><a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener" aria-label="GitHub profile"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+                            <li><a href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+                            <li><a href="mailto:nazmulmridha680@gmail.com" aria-label="Send an email"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+                        </ul>
                     </div>
-
-                    <div class="col-lg-5 col-12">
-                        <div class="hero-stage-wrap">
-                            <div class="hero-stage">
-                                <img src="images/Nazmul_BGR.webp" class="hero-photo" width="511" height="1118"
-                                    alt="Portrait of Nazmul Mridha">
-                            </div>
-
-                            <div class="hero-badge" aria-hidden="true">
-                                <svg viewBox="0 0 104 104">
-                                    <defs>
-                                        <path id="hx-ring" d="M52,52 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" />
-                                    </defs>
-                                    <g class="ring-text">
-                                        <text>
-                                            <textPath href="#hx-ring" textLength="222" lengthAdjust="spacing">OPEN TO
-                                                AI/ML ROLES &#8226; OPEN TO AI/ML ROLES &#8226; </textPath>
-                                        </text>
-                                    </g>
-                                    <path class="spark"
-                                        d="M52 38 55.5 48.5 66 52 55.5 55.5 52 66 48.5 55.5 38 52 48.5 48.5Z" />
-                                </svg>
-                            </div>
-                            <!--
-                            <div class="hero-chip chip-a">
-                                <span class="chip-icon" aria-hidden="true">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <b>19 activities</b>
-                                    <small>EfficientNetV2-S on SisFall</small>
-                                </span>
-                            </div>
-
-                            <div class="hero-chip chip-b">
-                                <span class="chip-icon mint" aria-hidden="true">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                                        <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <b>Resume ranking</b>
-                                    <small>Python &middot; NLP</small>
-                                </span>
-                            </div>
-                            -->
-                        </div>
-                    </div>
-
                 </div>
 
-
-
-
+                <div class="hero-stage-wrap">
+                    <div class="hero-stage">
+                        <img src="images/Nazmul_BGR.webp" class="hero-photo" width="511" height="1118" alt="Portrait of Nazmul Mridha" fetchpriority="high">
+                    </div>
+                    <div class="hero-badge" aria-hidden="true">
+                        <svg viewBox="0 0 104 104">
+                            <defs><path id="ring" d="M52,52 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"/></defs>
+                            <g class="ring-text"><text><textPath href="#ring" textLength="222" lengthAdjust="spacing">OPEN TO AI/ML ROLES &#8226; OPEN TO AI/ML ROLES &#8226; </textPath></text></g>
+                            <path class="spark" d="M52 38 55.5 48.5 66 52 55.5 55.5 52 66 48.5 55.5 38 52 48.5 48.5Z"/>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- Hero End -->
-        <!-- About Start -->
-        <section class="about section-padding" id="section_2">
-            <div class="container">
 
+        <!-- About -->
+        <section class="section about" id="about">
+            <div class="container">
                 <header class="sec-head reveal">
                     <p class="sec-kicker"><span>01</span> About me</p>
                     <h2 class="sec-title">Engineer in the making, <em>fundamentals first.</em></h2>
                 </header>
 
                 <div class="bento">
-
                     <div class="b-bio surface reveal">
-                        <p>I am a <strong>Computer Science and Engineering</strong> student at the
-                            <strong>University of Asia Pacific</strong>, graduating in <strong>November 2026</strong>,
-                            with a strong interest in Artificial Intelligence and Machine Learning. I enjoy
-                            transforming raw data into practical solutions and building intelligent systems
-                            that solve real-world problems. I am currently seeking an entry-level
-                            <strong>AI/ML Engineer</strong> opportunity where I can apply my technical skills
-                            and continue growing as an engineer.
-                        </p>
-
-                        <p>My project experience includes deep learning, computer vision, and natural language
-                            processing (NLP), including an <strong>EfficientNetV2-S-based activity classification
-                                system</strong>, wearable sensor data analysis, and an <strong>NLP-based resume
-                                ranking system</strong>. I also have a strong foundation in Python, data structures
-                            and algorithms, database design, and technical documentation.</p>
-
-                        <p>Beyond academics, I actively contribute to leadership and community activities.
-                            I serve as the <strong>President of the Software &amp; Hardware Club</strong>,
-                            received the <strong>Best Class Representative Award 2025</strong>, and have
-                            organized <strong>three hackathons</strong>.</p>
-
+                        <p>I am a <strong>Computer Science and Engineering</strong> student at the <strong>University of Asia Pacific</strong>, graduating in <strong>November 2026</strong>, with a strong interest in Artificial Intelligence and Machine Learning. I enjoy transforming raw data into practical solutions and building intelligent systems that solve real-world problems. I am currently seeking an entry-level <strong>AI/ML Engineer</strong> opportunity where I can apply my technical skills and continue growing as an engineer.</p>
+                        <p>My project experience includes deep learning, computer vision, and natural language processing (NLP), including an <strong>EfficientNetV2-S-based activity classification system</strong>, wearable sensor data analysis, and an <strong>NLP-based resume ranking system</strong>. I also have a strong foundation in Python, data structures and algorithms, database design, and technical documentation.</p>
+                        <p>Beyond academics, I actively contribute to leadership and community activities. I serve as the <strong>President of the Software &amp; Hardware Club</strong>, received the <strong>Best Class Representative Award 2025</strong>, and have organized <strong>three hackathons</strong>.</p>
                         <div class="bio-focus">
                             <small>Focus areas</small>
-                            <ul class="chips">
-                                <li>Deep Learning</li>
-                                <li>NLP</li>
-                                <li>Image Classification</li>
-                                <li>Human Activity Recognition</li>
-                            </ul>
+                            <ul class="chips"><li>Deep Learning</li><li>NLP</li><li>Image Classification</li><li>Human Activity Recognition</li></ul>
                         </div>
                     </div>
 
                     <div class="b-edu surface reveal" style="--d:.08s">
-                        <h3 class="card-label"><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M22 10 12 5 2 10l10 5 10-5z" />
-                                    <path d="M6 12v5c3 2 9 2 12 0v-5" />
-                                </svg></span> Education</h3>
+                        <h3 class="card-label"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-grad"/></svg></span> Education</h3>
                         <p class="edu-degree">B.Sc. in Computer Science &amp; Engineering</p>
-                        <p class="edu-school">University of Asia Pacific (UAP), Dhaka, Bangladesh &middot; Expected Nov
-                            2026</p>
-
-                        <!-- <div class="edu-score">
-                            <span class="num">3.76<small>/4.00</small></span>
-                            <span class="cap">CGPA</span>
-                        </div> -->
-
+                        <p class="edu-school">University of Asia Pacific (UAP), Dhaka, Bangladesh &middot; Expected Nov 2026</p>
                         <ul class="chips">
                             <li>Machine Learning &amp; Deep Learning</li>
                             <li>Data Structures &amp; Algorithms</li>
@@ -312,7 +156,6 @@ https://templatemo.com/tm-578-first-portfolio
                             <li>Object-Oriented Programming</li>
                             <li>Software Engineering</li>
                         </ul>
-
                         <ul class="edu-earlier">
                             <li><span>HSC &middot; Ideal College</span><span>2021</span></li>
                             <li><span>SSC &middot; Tejgaon Adarsha School &amp; College</span><span>2019</span></li>
@@ -321,161 +164,62 @@ https://templatemo.com/tm-578-first-portfolio
                     </div>
 
                     <div class="b-honors surface reveal">
-                        <h3 class="card-label"><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <circle cx="12" cy="8" r="6" />
-                                    <path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5" />
-                                </svg></span> Honors &amp; awards</h3>
+                        <h3 class="card-label"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-award"/></svg></span> Honors &amp; awards</h3>
                         <ul class="honor-list">
-                            <li>
-                                <span class="honor-badge">3&times;</span>
-                                <span><b>Vice Chancellor&rsquo;s Honor List</b><small>Three-time recipient, University
-                                        of Asia Pacific</small></span>
-                            </li>
-                            <li>
-                                <span class="honor-badge">1&times;</span>
-                                <span><b>Dean&rsquo;s Honor List</b><small>One-time recipient, University of Asia
-                                        Pacific</small></span>
-                            </li>
-                            <li>
-                                <span class="honor-badge"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path
-                                            d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z" />
-                                    </svg></span>
-                                <span><b>Best Class Representative (CR) Award</b><small>2025</small></span>
-                            </li>
+                            <li><span class="honor-badge" aria-hidden="true">3&times;</span><span><b>Vice Chancellor&rsquo;s Honor List</b><small>Three-time recipient, University of Asia Pacific</small></span></li>
+                            <li><span class="honor-badge" aria-hidden="true">1&times;</span><span><b>Dean&rsquo;s Honor List</b><small>One-time recipient, University of Asia Pacific</small></span></li>
+                            <li><span class="honor-badge" aria-hidden="true"><svg class="i" width="22" height="22" aria-hidden="true"><use href="#i-star"/></svg></span><span><b>Best Class Representative (CR) Award</b><small>2025</small></span></li>
                         </ul>
                     </div>
 
                     <div class="b-lead surface reveal" style="--d:.08s">
-                        <h3 class="card-label"><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                                    <circle cx="9" cy="7" r="4" />
-                                    <path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8" />
-                                </svg></span> Leadership &amp; activities</h3>
+                        <h3 class="card-label"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-users"/></svg></span> Leadership &amp; activities</h3>
                         <ul class="timeline">
-                            <li>
-                                <span class="tl-role">President</span>
-                                <span class="tl-meta">Software &amp; Hardware Club, UAP &middot; Spring 2026</span>
-                            </li>
-                            <li>
-                                <span class="tl-role">Class Representative</span>
-                                <span class="tl-meta">Batch 52, Section C &middot; Dept. of CSE, UAP</span>
-                            </li>
-                            <li>
-                                <span class="tl-role">Organizer</span>
-                                <span class="tl-meta">InnovateX 2025 National Hackathon &middot; DevFusion Mini
-                                    Hackathon &middot; HackApex 2026 Inter University Hackathon</span>
-                            </li>
-                            <li>
-                                <span class="tl-role">Volunteer</span>
-                                <span class="tl-meta">Final Presentation, NIPPON AI DOJO 2026 &middot; IRO Bangladesh
-                                    2026 &middot; UAP CSE Career Workshop &amp; Job Fair 2026</span>
-                            </li>
-                            <li>
-                                <span class="tl-role">Community</span>
-                                <span class="tl-meta">Active member, Dakbakhso Foundation &middot; Youth Community
-                                    Volunteer (Fire Service &amp; Civil Defence)</span>
-                            </li>
+                            <li><span class="tl-role">President</span><span class="tl-meta">Software &amp; Hardware Club, UAP &middot; Spring 2026</span></li>
+                            <li><span class="tl-role">Class Representative</span><span class="tl-meta">Batch 52, Section C &middot; Dept. of CSE, UAP</span></li>
+                            <li><span class="tl-role">Organizer</span><span class="tl-meta">InnovateX 2025 National Hackathon &middot; DevFusion Mini Hackathon &middot; HackApex 2026 Inter University Hackathon</span></li>
+                            <li><span class="tl-role">Volunteer</span><span class="tl-meta">Final Presentation, NIPPON AI DOJO 2026 &middot; IRO Bangladesh 2026 &middot; UAP CSE Career Workshop &amp; Job Fair 2026</span></li>
+                            <li><span class="tl-role">Community</span><span class="tl-meta">Active member, Dakbakhso Foundation &middot; Youth Community Volunteer (Fire Service &amp; Civil Defence)</span></li>
                         </ul>
                     </div>
 
                     <div class="b-facts surface reveal">
                         <ul class="facts">
-                            <li><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10" />
-                                        <path
-                                            d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                                    </svg></span><span><small>Languages</small><b>Bengali (native)<br>English
-                                        (proficient)</b></span></li>
-                            <li><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                                        <circle cx="12" cy="10" r="3" />
-                                    </svg></span><span><small>Based in</small><b>Dhaka, Bangladesh</b></span></li>
-                            <li><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path
-                                            d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
-                                        <path d="m22 6-10 7L2 6" />
-                                    </svg></span><span><small>Email</small><a
-                                        href="mailto:nazmulmridha680@gmail.com">nazmulmridha680@gmail.com</a></span>
-                            </li>
-                            <li><span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path
-                                            d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z" />
-                                    </svg></span><span><small>Phone</small><a href="tel:+8801641350241">+880 1641 350
-                                        241</a></span></li>
+                            <li><span class="icon-tile violet" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-globe"/></svg></span><span><small>Languages</small><b>Bengali (native)<br>English (proficient)</b></span></li>
+                            <li><span class="icon-tile violet" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-pin"/></svg></span><span><small>Based in</small><b>Dhaka, Bangladesh</b></span></li>
+                            <li><span class="icon-tile violet" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-mail"/></svg></span><span><small>Email</small><a href="mailto:nazmulmridha680@gmail.com">nazmulmridha680@gmail.com</a></span></li>
+                            <li><span class="icon-tile violet" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-phone"/></svg></span><span><small>Phone</small><a href="tel:+8801641350241">+880 1641 350 241</a></span></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </section>
-        <!-- About End -->
 
-        <!-- Skills + What I am learning Start -->
-        <section class="skills section-padding" id="section_3">
+        <!-- Skills + learning -->
+        <section class="section skills" id="skills">
             <div class="container">
-
                 <header class="sec-head reveal">
                     <p class="sec-kicker"><span>02</span> Skills &amp; learning</p>
                     <h2 class="sec-title">What I work with, <em>and what&rsquo;s next.</em></h2>
                 </header>
 
                 <div class="skill-groups">
-                    <div class="skill-group surface reveal" style="--d:0s">
-                        <h3>Programming languages</h3>
-                        <ul class="chips">
-                            <li>Python</li>
-                            <li>C++</li>
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>C</li>
-                            <li>SQL</li>
-                        </ul>
-                    </div>
-                    <div class="skill-group surface reveal" style="--d:0.08s">
-                        <h3>AI / ML</h3>
-                        <ul class="chips">
-                            <li>Machine Learning</li>
-                            <li>Deep Learning</li>
-                            <li>Image Classification</li>
-                            <li>NLP</li>
-                            <li>Human Activity Recognition</li>
-                        </ul>
-                    </div>
-                    <div class="skill-group surface reveal" style="--d:0s">
-                        <h3>Web &amp; databases</h3>
-                        <ul class="chips">
-                            <li>Django</li>
-                            <li>HTML5</li>
-                            <li>Tailwind CSS</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="skill-group surface reveal" style="--d:0.08s">
-                        <h3>Tools &amp; core areas</h3>
-                        <ul class="chips">
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>Data Structures &amp; Algorithms</li>
-                            <li>OOP</li>
-                            <li>Database Design</li>
-                            <li>Technical Documentation</li>
-                        </ul>
-                    </div>
+                <div class="skill-group surface reveal" style="--d:0s">
+                    <h3>Programming languages</h3>
+                    <ul class="chips"><li>Python</li><li>C++</li><li>Java</li><li>JavaScript</li><li>C</li><li>SQL</li></ul>
+                </div>
+                <div class="skill-group surface reveal" style="--d:.08s">
+                    <h3>AI / ML</h3>
+                    <ul class="chips"><li>Machine Learning</li><li>Deep Learning</li><li>Image Classification</li><li>NLP</li><li>Human Activity Recognition</li></ul>
+                </div>
+                <div class="skill-group surface reveal" style="--d:0s">
+                    <h3>Web &amp; databases</h3>
+                    <ul class="chips"><li>Django</li><li>HTML5</li><li>Tailwind CSS</li><li>MySQL</li></ul>
+                </div>
+                <div class="skill-group surface reveal" style="--d:.08s">
+                    <h3>Tools &amp; core areas</h3>
+                    <ul class="chips"><li>Git</li><li>GitHub</li><li>Data Structures &amp; Algorithms</li><li>OOP</li><li>Database Design</li><li>Technical Documentation</li></ul>
+                </div>
                 </div>
 
                 <div class="sub-head reveal">
@@ -484,601 +228,285 @@ https://templatemo.com/tm-578-first-portfolio
                 </div>
 
                 <div class="learn-grid">
-                    <article class="learn-card surface reveal" style="--d:0.0s">
-                        <div class="learn-top">
-                            <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-                                </svg></span>
-                            <h4>Web Development</h4>
-                            <span class="learn-no">01</span>
-                        </div>
-                        <ul class="learn-list">
-                            <li>Learning to Build Interactive and Responsive Websites</li>
-                            <li>Exploring HTML, CSS, and Beyond in Web Development</li>
-                        </ul>
-                    </article>
-                    <article class="learn-card surface reveal" style="--d:0.08s">
-                        <div class="learn-top">
-                            <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="m4 17 6-6-6-6M12 19h8" />
-                                </svg></span>
-                            <h4>Python</h4>
-                            <span class="learn-no">02</span>
-                        </div>
-                        <ul class="learn-list">
-                            <li>Exploring Python for Development &amp; Problem-Solving</li>
-                            <li>From Basics to Advanced Python Development</li>
-                        </ul>
-                    </article>
-                    <article class="learn-card surface reveal" style="--d:0.0s">
-                        <div class="learn-top">
-                            <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                                    <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
-                                </svg></span>
-                            <h4>Research paper</h4>
-                            <span class="learn-no">03</span>
-                        </div>
-                        <ul class="learn-list">
-                            <li>An In-Depth Study on Investigating the Achievement of AI Chatbots in Characteristic
-                                Healthcare</li>
-                            <li>Challenges and Opportunities in Respective AI Health Assistants</li>
-                        </ul>
-                    </article>
-                    <article class="learn-card surface reveal" style="--d:0.08s">
-                        <div class="learn-top">
-                            <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="m12 19 7-7 3 3-7 7-3-3z" />
-                                    <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
-                                    <path d="m2 2 7.6 7.6" />
-                                    <circle cx="11" cy="11" r="2" />
-                                </svg></span>
-                            <h4>Graphic Design</h4>
-                            <span class="learn-no">04</span>
-                        </div>
-                        <ul class="learn-list">
-                            <li>Canva, Adobe Illustrator, and Photoshop</li>
-                        </ul>
-                    </article>
+                <article class="learn-card surface reveal" style="--d:0s">
+                    <div class="learn-top">
+                        <span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-code"/></svg></span>
+                        <h3>Web Development</h3>
+                        <span class="learn-no" aria-hidden="true">01</span>
+                    </div>
+                    <ul class="learn-list"><li>Learning to Build Interactive and Responsive Websites</li><li>Exploring HTML, CSS, and Beyond in Web Development</li></ul>
+                </article>
+                <article class="learn-card surface reveal" style="--d:.08s">
+                    <div class="learn-top">
+                        <span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-terminal"/></svg></span>
+                        <h3>Python</h3>
+                        <span class="learn-no" aria-hidden="true">02</span>
+                    </div>
+                    <ul class="learn-list"><li>Exploring Python for Development &amp; Problem-Solving</li><li>From Basics to Advanced Python Development</li></ul>
+                </article>
+                <article class="learn-card surface reveal" style="--d:0s">
+                    <div class="learn-top">
+                        <span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-file"/></svg></span>
+                        <h3>Research paper</h3>
+                        <span class="learn-no" aria-hidden="true">03</span>
+                    </div>
+                    <ul class="learn-list"><li>An In-Depth Study on Investigating the Achievement of AI Chatbots in Characteristic Healthcare</li><li>Challenges and Opportunities in Respective AI Health Assistants</li></ul>
+                </article>
+                <article class="learn-card surface reveal" style="--d:.08s">
+                    <div class="learn-top">
+                        <span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-pen"/></svg></span>
+                        <h3>Graphic Design</h3>
+                        <span class="learn-no" aria-hidden="true">04</span>
+                    </div>
+                    <ul class="learn-list"><li>Canva, Adobe Illustrator, and Photoshop</li></ul>
+                </article>
                 </div>
-
             </div>
         </section>
-        <!-- Skills + What I am learning End -->
 
-        <!-- Projects Start -->
-        <section class="projects section-padding" id="section_4">
+        <!-- Projects -->
+        <section class="section projects" id="projects">
             <div class="container">
-
                 <header class="sec-head reveal">
                     <p class="sec-kicker"><span>03</span> Projects</p>
                     <h2 class="sec-title">Things I&rsquo;ve built, <em>end to end.</em></h2>
-                    <p class="sec-lead">Machine learning, NLP and full-stack work. Click a screenshot to enlarge it, or
-                        open the source on GitHub.</p>
+                    <p class="sec-lead">Machine learning, NLP and full-stack work. Click a preview to enlarge it, or open the source on GitHub.</p>
                 </header>
 
                 <div class="projects-grid">
-                    <article class="project-card reveal project-card--feature" style="--d:0.0s">
-                        <a href="images/projects/sisfall.webp" class="project-visual popup-image"
-                            style="--tint:124,108,255"
-                            aria-label="Enlarge: SisFall pipeline: wearable sensor signals turned into an image mosaic and classified by EfficientNetV2-S">
-                            <img src="images/projects/sisfall.webp"
-                                alt="Illustration: SisFall pipeline: wearable sensor signals turned into an image mosaic and classified by EfficientNetV2-S"
-                                loading="lazy">
-                            <span class="project-no">01</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>Deep Learning</li>
-                                <li>EfficientNetV2-S</li>
-                            </ul>
-                            <h3 class="project-title"><span>SisFall Fall Detection Model</span></h3>
-                            <p class="project-desc">A pipeline that converts wearable sensor data into time-frequency
-                                image mosaics and trains an EfficientNetV2-S classifier to recognize 19 activities of
-                                daily living.</p>
-                            <a class="project-link" href="https://github.com/rashed501772/har_signal_to_img_2026_spring"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.0s">
-                        <a href="images/projects/shop.webp" class="project-visual popup-image" style="--tint:79,227,193"
-                            aria-label="Enlarge: Gadget store with buy and rent options">
-                            <img src="images/projects/shop.webp"
-                                alt="Illustration: Gadget store with buy and rent options" loading="lazy">
-                            <span class="project-no">02</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>Django</li>
-                                <li>HTML</li>
-                                <li>Tailwind CSS</li>
-                            </ul>
-                            <h3 class="project-title"><span>Future Finds GadgetHub</span></h3>
-                            <p class="project-desc">A Django e-commerce platform for browsing, purchasing and renting
-                                consumer technology products and hardware.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/FutureFinds_GadgetHub"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-
-
-                    <article class="project-card reveal" style="--d:0.16s">
-                        <a href="images/projects/resume.webp" class="project-visual popup-image"
-                            style="--tint:124,108,255"
-                            aria-label="Enlarge: Candidates ranked by match score for a job profile">
-                            <img src="images/projects/resume.webp"
-                                alt="Illustration: Candidates ranked by match score for a job profile" loading="lazy">
-                            <span class="project-no">03</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>NLP</li>
-                            </ul>
-                            <h3 class="project-title"><span>Resume-Scanner</span></h3>
-                            <p class="project-desc">An automated resume screening system that uses natural language
-                                processing to evaluate and rank candidates, making screening faster and more consistent.
-                            </p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/AI_Resume_Screening_System"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.08s">
-                        <a href="images/projects/har.webp" class="project-visual popup-image" style="--tint:79,227,193"
-                            aria-label="Enlarge: Body acceleration signals across six human activities">
-                            <img src="images/projects/har.webp"
-                                alt="Illustration: Body acceleration signals across six human activities"
-                                loading="lazy">
-                            <span class="project-no">04</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>HAR</li>
-                            </ul>
-                            <h3 class="project-title"><span>UCI HAR Model</span></h3>
-                            <p class="project-desc">Human activity recognition project built on the UCI Human Activity
-                                Recognition dataset.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/UciHar-Model" target="_blank"
-                                rel="noopener">View on GitHub <svg width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.08s">
-                        <a href="images/projects/peer.webp" class="project-visual popup-image"
-                            style="--tint:124,108,255"
-                            aria-label="Enlarge: Peer-to-peer chat with file transfer and a blockchain ledger">
-                            <img src="images/projects/peer.webp"
-                                alt="Illustration: Peer-to-peer chat with file transfer and a blockchain ledger"
-                                loading="lazy">
-                            <span class="project-no">05</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>TCP</li>
-                                <li>Tkinter</li>
-                            </ul>
-                            <h3 class="project-title"><span>PeerLink</span></h3>
-                            <p class="project-desc">A blockchain project: serverless peer-to-peer chat and file sharing
-                                over TCP, with a Tkinter desktop interface.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Peer-To-Peer-Network-Blockchain"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-
-                    <article class="project-card reveal" style="--d:0.16s">
-                        <a href="images/projects/agri.webp" class="project-visual popup-image" style="--tint:79,227,193"
-                            aria-label="Enlarge: Illustration: Smart Agriculture Robot system overview">
-                            <img src="images/projects/agri.webp"
-                                alt="Illustration: Smart Agriculture Robot system overview" loading="lazy">
-                            <span class="project-no">06</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Arduino</li>
-                                <li>C++</li>
-                                <li>Embedded</li>
-                            </ul>
-                            <h3 class="project-title"><span>Smart Agriculture Robot</span></h3>
-                            <p class="project-desc">An Arduino-based agriculture robot, documented with a circuit
-                                diagram, block diagram, wiring guide and final report.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Smart_Agriculture_Robot"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.0s">
-                        <a href="images/projects/cpu.webp" class="project-visual popup-image" style="--tint:124,108,255"
-                            aria-label="Enlarge: Illustration: 8-bit accumulator CPU datapath">
-                            <img src="images/projects/cpu.webp" alt="Illustration: 8-bit accumulator CPU datapath"
-                                loading="lazy">
-                            <span class="project-no">07</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>VHDL</li>
-                                <li>Digital Design</li>
-                            </ul>
-                            <h3 class="project-title"><span>Mini 8-bit Accumulator CPU</span></h3>
-                            <p class="project-desc">A small 8-bit accumulator CPU in VHDL with a program counter, ROM,
-                                control unit and ALU, supporting LDI, ADD, SUB, AND and OR. Built for the CSE 450 VLSI
-                                Lab.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Mini-8bit-accumulator-cpu"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.08s">
-                        <a href="images/projects/uapcoin.webp" class="project-visual popup-image"
-                            style="--tint:79,227,193" aria-label="Enlarge: Illustration: UAP Coin blockchain ledger">
-                            <img src="images/projects/uapcoin.webp" alt="Illustration: UAP Coin blockchain ledger"
-                                loading="lazy">
-                            <span class="project-no">08</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Python</li>
-                                <li>Blockchain</li>
-                            </ul>
-                            <h3 class="project-title"><span>UAP Coin Blockchain</span></h3>
-                            <p class="project-desc">A blockchain-based coin project that explores how blocks are linked
-                                to keep a tamper-evident ledger.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/UAP_Coin_BlockChain"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.16s">
-                        <a href="images/projects/bullet.webp" class="project-visual popup-image"
-                            style="--tint:124,108,255"
-                            aria-label="Enlarge: Illustration: Bullet Train Management System relational schema">
-                            <img src="images/projects/bullet.webp"
-                                alt="Illustration: Bullet Train Management System relational schema" loading="lazy">
-                            <span class="project-no">09</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>SQL</li>
-                                <li>MySQL</li>
-                            </ul>
-                            <h3 class="project-title"><span>Bullet Train Management System</span></h3>
-                            <p class="project-desc">A relational database for train schedules, routes and ticketing
-                                data.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Bullet-Train-Management-System"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.0s">
-                        <a href="images/projects/carsell.webp" class="project-visual popup-image"
-                            style="--tint:79,227,193"
-                            aria-label="Enlarge: Illustration: Car Sell System inventory screen">
-                            <img src="images/projects/carsell.webp" alt="Illustration: Car Sell System inventory screen"
-                                loading="lazy">
-                            <span class="project-no">10</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>Java</li>
-                                <li>OOP</li>
-                            </ul>
-                            <h3 class="project-title"><span>Car Sell System</span></h3>
-                            <p class="project-desc">A desktop inventory application that demonstrates object-oriented
-                                programming principles.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Car_Sales_System_Project"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" style="--d:0.08s">
-                        <a href="images/projects/password.webp" class="project-visual popup-image"
-                            style="--tint:124,108,255"
-                            aria-label="Enlarge: Illustration: Password Strength Checker terminal">
-                            <img src="images/projects/password.webp"
-                                alt="Illustration: Password Strength Checker terminal" loading="lazy">
-                            <span class="project-no">11</span>
-                            <span class="project-zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                                </svg></span>
-                        </a>
-                        <div class="project-body">
-                            <ul class="project-tags">
-                                <li>C</li>
-                            </ul>
-                            <h3 class="project-title"><span>Password Strength Checker</span></h3>
-                            <p class="project-desc">A C program that checks how strong a password is.</p>
-                            <a class="project-link" href="https://github.com/Nazmul-SWE/Password-Strength-Checker"
-                                target="_blank" rel="noopener">View on GitHub <svg width="16" height="16"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></a>
-                        </div>
-                    </article>
-
-
+                <article class="project-card reveal project-card--feature" style="--d:0s">
+                    <a href="images/projects/sisfall.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: SisFall pipeline: wearable sensor signals turned into an image mosaic and classified by EfficientNetV2-S">
+                        <img src="images/projects/sisfall.webp" alt="SisFall pipeline: wearable sensor signals turned into an image mosaic and classified by EfficientNetV2-S" width="1200" height="1100" decoding="async">
+                        <span class="project-no" aria-hidden="true">01</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>Deep Learning</li><li>EfficientNetV2-S</li></ul>
+                        <h3 class="project-title"><span>SisFall Fall Detection Model</span></h3>
+                        <p class="project-desc">A pipeline that converts wearable sensor data into time-frequency image mosaics and trains an EfficientNetV2-S classifier to recognize 19 activities of daily living.</p>
+                        <a class="project-link" href="https://github.com/rashed501772/har_signal_to_img_2026_spring" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (SisFall Fall Detection Model)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.08s">
+                    <a href="images/projects/shop.webp" class="project-visual popup-image" style="--tint:79,227,193" aria-label="Enlarge image: Gadget store with buy and rent options">
+                        <img src="images/projects/shop.webp" alt="Gadget store with buy and rent options" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">02</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>Django</li><li>HTML</li><li>Tailwind CSS</li></ul>
+                        <h3 class="project-title"><span>Future Finds GadgetHub</span></h3>
+                        <p class="project-desc">A Django e-commerce platform for browsing, purchasing and renting consumer technology products and hardware.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/FutureFinds_GadgetHub" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Future Finds GadgetHub)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.16s">
+                    <a href="images/projects/resume.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: Candidates ranked by match score for a job profile">
+                        <img src="images/projects/resume.webp" alt="Candidates ranked by match score for a job profile" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">03</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>NLP</li></ul>
+                        <h3 class="project-title"><span>Resume-Scanner</span></h3>
+                        <p class="project-desc">An automated resume screening system that uses natural language processing to evaluate and rank candidates, making screening faster and more consistent.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/AI_Resume_Screening_System" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Resume-Scanner)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:0s">
+                    <a href="images/projects/har.webp" class="project-visual popup-image" style="--tint:79,227,193" aria-label="Enlarge image: Body acceleration signals across six human activities">
+                        <img src="images/projects/har.webp" alt="Body acceleration signals across six human activities" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">04</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>HAR</li></ul>
+                        <h3 class="project-title"><span>UCI HAR Model</span></h3>
+                        <p class="project-desc">Human activity recognition project built on the UCI Human Activity Recognition dataset.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/UciHar-Model" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (UCI HAR Model)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.08s">
+                    <a href="images/projects/peer.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: Peer-to-peer chat with file transfer and a blockchain ledger">
+                        <img src="images/projects/peer.webp" alt="Peer-to-peer chat with file transfer and a blockchain ledger" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">05</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>TCP</li><li>Tkinter</li></ul>
+                        <h3 class="project-title"><span>PeerLink</span></h3>
+                        <p class="project-desc">A blockchain project: serverless peer-to-peer chat and file sharing over TCP, with a Tkinter desktop interface.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Peer-To-Peer-Network-Blockchain" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (PeerLink)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.16s">
+                    <a href="images/projects/agri.webp" class="project-visual popup-image" style="--tint:79,227,193" aria-label="Enlarge image: Smart Agriculture Robot system overview">
+                        <img src="images/projects/agri.webp" alt="Smart Agriculture Robot system overview" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">06</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Arduino</li><li>C++</li><li>Embedded</li></ul>
+                        <h3 class="project-title"><span>Smart Agriculture Robot</span></h3>
+                        <p class="project-desc">An Arduino-based agriculture robot, documented with a circuit diagram, block diagram, wiring guide and final report.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Smart_Agriculture_Robot" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Smart Agriculture Robot)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:0s">
+                    <a href="images/projects/cpu.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: 8-bit accumulator CPU datapath">
+                        <img src="images/projects/cpu.webp" alt="8-bit accumulator CPU datapath" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">07</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>VHDL</li><li>Digital Design</li></ul>
+                        <h3 class="project-title"><span>Mini 8-bit Accumulator CPU</span></h3>
+                        <p class="project-desc">A small 8-bit accumulator CPU in VHDL with a program counter, ROM, control unit and ALU, supporting LDI, ADD, SUB, AND and OR. Built for the CSE 450 VLSI Lab.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Mini-8bit-accumulator-cpu" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Mini 8-bit Accumulator CPU)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.08s">
+                    <a href="images/projects/uapcoin.webp" class="project-visual popup-image" style="--tint:79,227,193" aria-label="Enlarge image: UAP Coin blockchain ledger">
+                        <img src="images/projects/uapcoin.webp" alt="UAP Coin blockchain ledger" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">08</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>Blockchain</li></ul>
+                        <h3 class="project-title"><span>UAP Coin Blockchain</span></h3>
+                        <p class="project-desc">A blockchain-based coin project that explores how blocks are linked to keep a tamper-evident ledger.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/UAP_Coin_BlockChain" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (UAP Coin Blockchain)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.16s">
+                    <a href="images/projects/bullet.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: Bullet Train Management System relational schema">
+                        <img src="images/projects/bullet.webp" alt="Bullet Train Management System relational schema" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">09</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>SQL</li><li>MySQL</li></ul>
+                        <h3 class="project-title"><span>Bullet Train Management System</span></h3>
+                        <p class="project-desc">A relational database for train schedules, routes and ticketing data.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Bullet-Train-Management-System" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Bullet Train Management System)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:0s">
+                    <a href="images/projects/carsell.webp" class="project-visual popup-image" style="--tint:79,227,193" aria-label="Enlarge image: Car Sell System inventory screen">
+                        <img src="images/projects/carsell.webp" alt="Car Sell System inventory screen" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">10</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>Java</li><li>OOP</li></ul>
+                        <h3 class="project-title"><span>Car Sell System</span></h3>
+                        <p class="project-desc">A desktop inventory application that demonstrates object-oriented programming principles.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Car_Sales_System_Project" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Car Sell System)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
+                <article class="project-card reveal" style="--d:.08s">
+                    <a href="images/projects/password.webp" class="project-visual popup-image" style="--tint:124,108,255" aria-label="Enlarge image: Password Strength Checker terminal">
+                        <img src="images/projects/password.webp" alt="Password Strength Checker terminal" width="1440" height="900" loading="lazy" decoding="async">
+                        <span class="project-no" aria-hidden="true">11</span>
+                        <span class="project-zoom" aria-hidden="true"><svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-expand"/></svg></span>
+                    </a>
+                    <div class="project-body">
+                        <ul class="project-tags" aria-label="Technologies"><li>C</li></ul>
+                        <h3 class="project-title"><span>Password Strength Checker</span></h3>
+                        <p class="project-desc">A C program that checks how strong a password is.</p>
+                        <a class="project-link" href="https://github.com/Nazmul-SWE/Password-Strength-Checker" target="_blank" rel="noopener">View on GitHub<span class="sr-only"> (Password Strength Checker)</span><svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+                    </div>
+                </article>
                 </div>
-
             </div>
         </section>
-        <!-- Projects End -->
 
-        <!-- Contact Start -->
-        <section class="contact section-padding" id="section_5">
+        <!-- Contact -->
+        <section class="section contact" id="contact">
             <div class="container">
-
                 <header class="sec-head reveal">
                     <p class="sec-kicker"><span>04</span> Contact</p>
                     <h2 class="sec-title">Let&rsquo;s build something <em>useful.</em></h2>
                 </header>
 
                 <div class="contact-grid">
-
                     <div class="contact-card surface reveal">
-                        <span class="availability"><span class="pulse" aria-hidden="true"></span> Open to entry-level
-                            AI/ML roles</span>
+                        <span class="availability"><span class="pulse" aria-hidden="true"></span> Open to entry-level AI/ML roles</span>
                         <h3>Say hello</h3>
-                        <p>Have a role, a collaboration or a question about one of my projects? Send a message and
-                            I&rsquo;ll get back to you.</p>
+                        <p>Have a role, a collaboration or a question about one of my projects? Send a message and I&rsquo;ll get back to you.</p>
 
                         <ul class="contact-links">
-                            <li>
-                                <a class="contact-link" href="mailto:nazmulmridha680@gmail.com">
-                                    <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                            stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                            stroke-linejoin="round" aria-hidden="true">
-                                            <path
-                                                d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
-                                            <path d="m22 6-10 7L2 6" />
-                                        </svg></span>
-                                    <span><small>Email</small><b>nazmulmridha680@gmail.com</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="contact-link" href="tel:+8801641350241">
-                                    <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                            stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                            stroke-linejoin="round" aria-hidden="true">
-                                            <path
-                                                d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z" />
-                                        </svg></span>
-                                    <span><small>Phone</small><b>+880 1641 350 241</b></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="contact-link" href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank"
-                                    rel="noopener">
-                                    <span class="icon-tile"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                            stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                            stroke-linejoin="round" aria-hidden="true">
-                                            <path
-                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                        </svg></span>
-                                    <span><small>LinkedIn</small><b>linkedin.com/in/nazmul-mridha-2545a6315</b></span>
-                                </a>
-                            </li>
+                            <li><a class="contact-link" href="mailto:nazmulmridha680@gmail.com"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-mail"/></svg></span><span><small>Email</small><b>nazmulmridha680@gmail.com</b></span></a></li>
+                            <li><a class="contact-link" href="tel:+8801641350241"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-phone"/></svg></span><span><small>Phone</small><b>+880 1641 350 241</b></span></a></li>
+                            <li><a class="contact-link" href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank" rel="noopener"><span class="icon-tile" aria-hidden="true"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-linkedin"/></svg></span><span><small>LinkedIn</small><b>linkedin.com/in/nazmul-mridha-2545a6315</b></span></a></li>
                         </ul>
 
-                        <ul class="contact-social">
-                            <li><a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener"
-                                    aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path
-                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.4 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.9 1S18.7.7 16 2.5a13.4 13.4 0 0 0-7 0C6.3.7 5.1 1 5.1 1A5 5 0 0 0 5 4.8a5.4 5.4 0 0 0-1.5 3.7c0 5.5 3.3 6.6 6.4 7a3.4 3.4 0 0 0-.9 2.6V22" />
-                                    </svg></a></li>
-                            <li><a href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank" rel="noopener"
-                                    aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path
-                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                    </svg></a></li>
-                            <li><a href="https://www.facebook.com/nazmulmridha.nazmulmridha" target="_blank"
-                                    rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                                    </svg></a></li>
-                            <li><a href="https://www.instagram.com/nazmul_mridha_/" target="_blank" rel="noopener"
-                                    aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
-                                        stroke-linejoin="round" aria-hidden="true">
-                                        <rect x="2" y="2" width="20" height="20" rx="5" />
-                                        <path d="M16 11.4a4 4 0 1 1-7.9 1.2 4 4 0 0 1 7.9-1.2zM17.5 6.5h.01" />
-                                    </svg></a></li>
+                        <ul class="icon-links">
+                            <li><a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+                            <li><a href="https://www.linkedin.com/in/nazmul-mridha-2545a6315/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+                            <li><a href="https://www.facebook.com/nazmulmridha.nazmulmridha" target="_blank" rel="noopener" aria-label="Facebook"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+                            <li><a href="https://www.instagram.com/nazmul_mridha_/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
                         </ul>
                     </div>
 
-                    <form id="contactForm" class="contact-form contact-card surface reveal" style="--d:.08s"
-                        action="mailto:nazmulmridha680@gmail.com" method="post" enctype="text/plain">
+                    <form id="contactForm" class="contact-form contact-card surface reveal" style="--d:.08s">
                         <h3>Send a message</h3>
-
                         <div class="field">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Your name" autocomplete="name"
-                                required>
+                            <input type="text" name="name" id="name" placeholder="Your name" autocomplete="name" required>
                         </div>
-
                         <div class="field">
                             <label for="email">Email address</label>
-                            <input type="email" name="email" id="email" placeholder="you@example.com"
-                                autocomplete="email" required>
+                            <input type="email" name="email" id="email" placeholder="you@example.com" autocomplete="email" required>
                         </div>
-
                         <div class="field field--full">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" placeholder="Tell me about the role or project"
-                                required></textarea>
+                            <textarea name="message" id="message" placeholder="Tell me about the role or project" required></textarea>
                         </div>
-
                         <div class="form-foot">
                             <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
-                            <button type="submit" class="send-btn">Send message <svg width="18" height="18"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
-                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M7 17 17 7M8 7h9v9" />
-                                </svg></button>
+                            <button type="submit" class="btn btn-primary">Send message <svg class="i" width="18" height="18" aria-hidden="true"><use href="#i-arrow-ur"/></svg></button>
                         </div>
                     </form>
-
                 </div>
             </div>
         </section>
-        <!-- Contact End -->
-
     </main>
 
- <footer class="site-footer">
-    <div class="container">
-        <div class="footer-top">
-            <div class="footer-brand">
-                <a href="#section_1" class="footer-logo custom-link">Nazmul Mridha<span>.</span></a>
-                <p>Junior AI/ML Engineer building practical machine learning systems, from signal processing to deployment.</p>
-                <!-- <span class="footer-status"><i></i> Open to entry-level AI/ML roles </span> -->
-                 <p>&copy; 2026 Nazmul Mridha &middot; Dhaka, Bangladesh</p>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">Nazmul Mridha<span>.</span></a>
+                    <p>Junior AI/ML Engineer building practical machine learning systems, from signal processing to deployment.</p>
+                </div>
+                <nav class="footer-col" aria-label="Footer navigation">
+                    <h4>Explore</h4>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener">GitHub</a>
+                    <a href="mailto:nazmulmridha680@gmail.com">Email</a>
+                    <a href="docs/Nazmul_Mridha_CV_AIML_Engineer.pdf" target="_blank" rel="noopener">Download CV</a>
+                    <a class="to-top" href="#home">Back to top <svg class="i" width="16" height="16" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+                </div>
             </div>
-
-            <nav class="footer-col" aria-label="Footer navigation">
-                <h4>Explore</h4>
-                <a href="#section_2" class="custom-link">About</a>
-                <a href="#section_3" class="custom-link">Skills</a>
-                <a href="#section_4" class="custom-link">Projects</a>
-                <a href="#section_5" class="custom-link">Contact</a>
-            </nav>
-
-            <div class="footer-col">
-                <h4>Connect</h4>
-                <a href="https://github.com/Nazmul-SWE" target="_blank" rel="noopener">GitHub</a>
-                <a href="mailto:nazmulmridha680@gmail.com">Email</a>
-                <a href="docs/Nazmul_Mridha_CV_AIML_Engineer.pdf" target="_blank" rel="noopener">Download CV</a>
-                <a href="#section_1" class="to-top custom-link">Back to top
-                <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M12 19V5m0 0-6 6m6-6 6 6" /></svg></span></a>
-            </div>
+            <div class="footer-bottom"><p>&copy; 2026 Nazmul Mridha &middot; Dhaka, Bangladesh</p></div>
         </div>
+    </footer>
 
-       
-    </div>
-</footer>
+    <dialog class="lightbox" id="lightbox" aria-label="Project image viewer">
+        <button class="lb-btn lb-close" type="button" aria-label="Close"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-close"/></svg></button>
+        <button class="lb-btn lb-prev" type="button" aria-label="Previous image"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-chev-l"/></svg></button>
+        <button class="lb-btn lb-next" type="button" aria-label="Next image"><svg class="i" width="20" height="20" aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+        <div class="lb-stage"><img alt=""></div>
+        <p class="lb-caption" aria-live="polite"></p>
+    </dialog>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
-    <script src="js/custom.js"></script>
-
+    <script src="js/main.js" defer></script>
 </body>
-
 </html>
