@@ -5,6 +5,29 @@
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
+  /* ----- Theme toggle (light default, remembered in localStorage) ----- */
+  var root = document.documentElement;
+  var themeBtn = $('.theme-toggle');
+  var themeMeta = $('meta[name="theme-color"]');
+
+  function applyTheme(t, animate) {
+    if (animate) {
+      root.classList.add('theme-anim');
+      setTimeout(function () { root.classList.remove('theme-anim'); }, 450);
+    }
+    root.setAttribute('data-theme', t);
+    if (themeMeta) themeMeta.setAttribute('content', t === 'dark' ? '#0a0e1c' : '#f6f7fc');
+    var label = t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme';
+    themeBtn.setAttribute('aria-label', label);
+    themeBtn.setAttribute('title', label);
+    try { localStorage.setItem('theme', t); } catch (e) { /* storage unavailable */ }
+  }
+
+  themeBtn.addEventListener('click', function () {
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true);
+  });
+  applyTheme(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light', false);
+
   /* ----- Navbar: scrolled state, mobile menu, scroll-spy ----- */
   var navbar = $('.navbar');
   var toggle = $('.nav-toggle');

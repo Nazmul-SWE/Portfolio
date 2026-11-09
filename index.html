@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +7,8 @@
     <title>Nazmul Mridha | Junior AI/ML Engineer</title>
     <meta name="description" content="Nazmul Mridha - Junior AI/ML Engineer. CSE graduate (UAP, Nov 2026) building deep learning and NLP projects in Python.">
     <meta name="author" content="Nazmul Mridha">
-    <meta name="theme-color" content="#0a0e1c">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#f6f7fc">
+    <meta name="color-scheme" content="light dark">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nazmul Mridha | Junior AI/ML Engineer">
@@ -20,7 +20,17 @@
     <link rel="preload" href="fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
-    <script>document.documentElement.classList.add('js');</script>
+    <script>
+        /* Runs before first paint so the saved theme never flashes. Light is the default. */
+        (function () {
+            var d = document.documentElement, t = 'light';
+            d.classList.add('js');
+            try { if (localStorage.getItem('theme') === 'dark') t = 'dark'; } catch (e) {}
+            d.setAttribute('data-theme', t);
+            var m = document.querySelector('meta[name="theme-color"]');
+            if (m) m.setAttribute('content', t === 'dark' ? '#0a0e1c' : '#f6f7fc');
+        })();
+    </script>
 </head>
 
 <body>
@@ -48,6 +58,8 @@
 <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
 <symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></symbol>
 <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
 <symbol id="i-pen" viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></symbol>
 </defs></svg>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -59,9 +71,14 @@
                 <span>Nazmul<span class="brand-dot">.</span></span>
             </a>
 
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
-                <span class="nav-toggle-icon"></span>
-            </button>
+            <div class="nav-actions">
+                <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+                    <svg class="i i-moon" width="20" height="20" aria-hidden="true"><use href="#i-moon"/></svg><svg class="i i-sun" width="20" height="20" aria-hidden="true"><use href="#i-sun"/></svg>
+                </button>
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                    <span class="nav-toggle-icon"></span>
+                </button>
+            </div>
 
             <div class="nav-menu" id="navMenu">
                 <ul class="nav-links">
