@@ -55,7 +55,7 @@
   --shade: 38, 46, 110;      /* shadow colour */
   --sk: .32;                 /* shadow strength */
   --glow-op: .6;             /* strength of the background glows */
-  --dots-op: .5;
+  --hero-bg: url('../images/hero-bg-light.webp');
   --ring-fill: rgba(255, 255, 255, .55);
   --ring-edge: rgba(20, 26, 58, .08);
   --stage-bg:
@@ -97,7 +97,7 @@
   --shade: 4, 6, 18;
   --sk: 1;
   --glow-op: 1;
-  --dots-op: 1;
+  --hero-bg: url('../images/hero-bg-dark.webp');
   --ring-fill: rgba(255, 255, 255, .025);
   --ring-edge: rgba(255, 255, 255, .08);
   --stage-bg:
@@ -165,7 +165,8 @@ input:focus-visible, textarea:focus-visible { outline: 0; }
 
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); font-family: var(--display); font-size: 1.12rem; font-weight: 700; letter-spacing: -.01em; }
 .brand:hover { color: var(--strong); }
-.brand-mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 13px; background: linear-gradient(135deg, var(--violet), var(--mint)); color: var(--on-solid); font-size: .9rem; letter-spacing: -.02em; }
+.brand-avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 2px var(--line-2); transition: box-shadow .3s ease, transform .3s var(--ease); }
+.brand:hover .brand-avatar { box-shadow: 0 0 0 2px var(--mint); transform: scale(1.05); }
 .brand-dot { color: var(--mint); }
 
 .nav-menu { display: none; flex-basis: 100%; }
@@ -219,23 +220,8 @@ input:focus-visible, textarea:focus-visible { outline: 0; }
   min-height: 100vh; min-height: 100svh;
   padding: 128px 0 72px;
   overflow: hidden;
+  background: var(--ink) var(--hero-bg) 70% 20% / cover no-repeat;
 }
-.hero::before, .hero::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; }
-.hero::before {
-  background:
-    radial-gradient(48% 55% at 82% 28%, rgba(124, 108, 255, .34), transparent 70%),
-    radial-gradient(38% 45% at 8% 92%, rgba(79, 227, 193, .16), transparent 70%),
-    radial-gradient(30% 35% at 60% 100%, rgba(193, 63, 214, .14), transparent 70%);
-  -webkit-mask-image: linear-gradient(#000 72%, transparent); mask-image: linear-gradient(#000 72%, transparent);
-  opacity: var(--glow-op);
-}
-.hero::after {
-  background-image: radial-gradient(rgba(var(--wash), .16) 1px, transparent 1.4px);
-  background-size: 28px 28px; opacity: calc(.55 * var(--dots-op));
-  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 70% 35%, #000 10%, transparent 75%);
-  mask-image: radial-gradient(ellipse 80% 70% at 70% 35%, #000 10%, transparent 75%);
-}
-
 .hero-grid { display: grid; grid-template-columns: 1fr; gap: 56px; align-items: center; }
 
 .hero-eyebrow, .availability {
